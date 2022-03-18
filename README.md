@@ -1,4 +1,4 @@
-# Program-Kalkulator-Sederhana
+# Program Kalkulator Sederhana
 # Anggota Kelompok
 
 <p> A-2100018030-Muhammad Zaki Auzan <br/>
