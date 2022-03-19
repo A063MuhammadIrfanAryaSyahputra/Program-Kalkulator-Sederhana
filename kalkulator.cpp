@@ -36,3 +36,31 @@ void bagi(float a, float b){
 	cin>>pilih;
     cout<<"||==========================================||\n";
 		
+if (pilih==1){
+    	cout<<"Masukkan bilangan pertama ="; cin>>a;
+    	cout<<"Masukkan bilangan kedua   ="; cin>>b;
+    	tambah(a,b);
+    	cout<<"\nUlang? Y/T :"; cin>>ulang;
+	}
+	else if (pilih==2){
+		cout<<"Masukkan bilangan pertama ="; cin>>a;
+    	cout<<"Masukkan bilangan kedua   ="; cin>>b;
+    	kurang(a,b);
+    	cout<<"\nUlang? Y/T :"; cin>>ulang;
+	}
+	else if(pilih==3){
+		cout<<"Masukkan bilangan pertama ="; cin>>a;
+    	cout<<"Masukkan bilangan kedua   ="; cin>>b;
+    	kali(a,b);
+    	cout<<"\nUlang? Y/T :"; cin>>ulang;
+	}
+	else if(pilih==4){
+		cout<<"Masukkan bilangan pertama ="; cin>>a;
+    	cout<<"Masukkan bilangan kedua   ="; cin>>b;
+    	bagi(a,b);
+    	cout<<"\nUlang? Y/T :"; cin>>ulang;
+	}
+	}while (ulang=='Y'||ulang !='T');
+	
+}
+		
