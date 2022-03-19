@@ -61,5 +61,7 @@ if (pilih==1){
 	}
 	}while (ulang=='Y'||ulang !='T');
 	
+	return 0;
+		
 }
 		
