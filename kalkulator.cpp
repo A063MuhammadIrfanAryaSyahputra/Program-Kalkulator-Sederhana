@@ -10,3 +10,4 @@ void tambah(float a, float b){
 void kurang(float a, float b){
 	cout<<"Hasil dari Pengurangan "<<a<<" - "<<b<<" adalah = ";
 	cout<<a-b;
+	cout<<"testing jee\n";
